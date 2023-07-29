@@ -1,0 +1,2 @@
+Hello, this is some sample data.
+You can write additional lines as well.
