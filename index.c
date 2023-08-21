@@ -2,11 +2,13 @@
 #include <string.h>
 int main()
 {
-  char backToHome = 'Y';
-  while(backToHome = 'Y'){
+  int backToHome = 4;
+
+  while(backToHome = 4){
 
 
   printf("WElCOME TO Library \n");
+  printf("-----------------------------\n");
   printf("1. Add books \n");
   printf("2. Display book Information \n");
   printf("3. Search Books(Book Status) \n");
@@ -59,15 +61,12 @@ int main()
          printf("==================================\n");
         printf("Book Name: ");
         scanf("%s", &bookNames);
-        printf("\n\n");
 
         printf("Author Name: ");
         scanf("%s", &authorName);
-        printf("\n\n");
 
         printf("Pages: ");
         scanf("%d", &pages);
-        printf("\n\n");
 
         printf("Price : ");
         scanf("%d", &prices);
@@ -92,15 +91,15 @@ int main()
          printf("==================================\n");
         printf("Book Name : ");
         scanf("%s", &bookNamesB);
-        printf("\n\n");
+        printf("\n");
 
         printf("Enter Author");
         scanf("%s", &authorNameB);
-        printf("\n\n");
+        printf("\n");
 
         printf("Pages: ");
         scanf("%d", &pagesB);
-        printf("\n\n");
+        printf("\n");
 
         printf("Prices: ");
         scanf("%d", &pricesB);
@@ -125,15 +124,15 @@ int main()
          printf("==================================\n");
         printf("Book Name : ");
         scanf("%s", &bookNamesC);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author Name: ");
         scanf("%s", &authorNameC);
-        printf("\n\n");
+        printf("\n");
 
         printf("Pages : ");
         scanf("%d", &pagesC);
-        printf("\n\n");
+        printf("\n");
 
         printf("Prices : ");
         scanf("%d", &pagesC);
@@ -143,13 +142,13 @@ int main()
     {
       printf("You have choosed Electronics category \n\n");
       printf("1. Practical Electronics for Inventors \n");
-      printf("2. The art of Electronics");
+      printf("2. The art of Electronics \n");
       printf("3. Fundamentals of digital circuits");
 
       int a4;
       printf("chose a book : ");
-      scanf("%c", &a4);
-      printf("\n\n");
+      scanf("%d", &a4);
+      printf("\n");
 
       if (a4 == 1)
       {
@@ -171,7 +170,7 @@ int main()
          printf("==================================\n");
         printf("Books Name : ");
         scanf("%s", &book_namedD);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author Name: ");
         scanf("%c", &author_nameD);
@@ -179,15 +178,15 @@ int main()
 
         printf("pages : ");
         scanf("%d", &pageD);
-        printf("\n\n");
+        printf("\n");
 
         printf("Price");
         scanf("%d", &pricesD);
-        printf("\n\n");
+        printf("\n");
       }
       else if (a4 == 2)
       {
-        printf("You have choosed The art of Electronics");
+        printf("You have choosed The art of Electronics \n");
         char student_name[100];
         int student_id;
         char bookName_E[100];
@@ -205,19 +204,19 @@ int main()
          printf("==================================\n");
         printf("Books Name:");
         scanf("%s", &bookName_E);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author's Name: ");
         scanf("%s", &authorName_E);
-        printf("\n\n");
+        printf("\n");
 
         printf("Pages: ");
         scanf("%d", &page_E);
-        printf("\n\n");
+        printf("\n");
 
         printf("Price : ");
         scanf("%d", &price_E);
-        printf("\n\n");
+        printf("\n");
       }
       else if (a4 == 3)
       {
@@ -239,19 +238,19 @@ int main()
          printf("==================================\n");
         printf("Book's Name: ");
         scanf("%s", bookName_F);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author name: ");
         scanf("%s", &authorName_F);
-        printf("\n\n");
+        printf("\n");
 
         printf("Page : ");
         scanf("%d", &pages_F);
-        printf("\n\n");
+        printf("\n");
 
         printf("Prince: ");
         scanf("%d", &price_F);
-        printf("\n\n");
+        printf("\n");
       }
     }
     else if (a2 == 3)
@@ -264,7 +263,7 @@ int main()
       int a5;
       printf("Choose a book: ");
       scanf("%d,", &a5);
-      printf("\n\n");
+      printf("\n");
       if (a5 == 1)
       {
         printf("You have choosed Introduction to Autocad\n");
@@ -285,7 +284,7 @@ int main()
          printf("==================================\n");
         printf("Books Name: ");
         scanf("%s", &books_name);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author Name: ");
         scanf("%s", &author_name);
@@ -293,11 +292,11 @@ int main()
 
         printf("Page: ");
         scanf("%d", &page);
-        printf("\n\n");
+        printf("\n");
 
         printf("Price: ");
         scanf("%d", &price);
-        printf("\n\n");
+        printf("\n");
       }
       else if (a5 == 2)
       {
@@ -319,19 +318,19 @@ int main()
          printf("==================================\n");
         printf("Books Name: ");
         scanf("%s", &books_nameE);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author Name: ");
         scanf("%s", &author_nameE);
-        printf("\n\n");
+        printf("\n");
 
         printf("Page: ");
         scanf("%d", &pageE);
-        printf("\n\n");
+        printf("\n");
 
         printf("Price: ");
         scanf("%d", &priceE);
-        printf("\n\n");
+        printf("\n");
       }
       else if (a5 == 3)
       {
@@ -353,19 +352,19 @@ int main()
          printf("==================================\n");
         printf("Books Name: ");
         scanf("%s", &books_nameF);
-        printf("\n\n");
+        printf("\n");
 
         printf("Author Name: ");
         scanf("%s", &author_nameF);
-        printf("\n\n");
+        printf("\n");
 
         printf("Page: ");
         scanf("%d", &pageF);
-        printf("\n\n");
+        printf("\n");
 
         printf("Price: ");
         scanf("%d", &priceF);
-        printf("\n\n");
+        printf("\n");
       }
     }
   }
@@ -407,50 +406,50 @@ int main()
     {
     case 123:
       printf("Book Name: Introduction to C\n");
-      printf("Books Status: 2 Copies left");
+      printf("Books Status: 2 Copies left\n");
       break;
 
        case 456:
       printf("Book Name: Introduction to Python\n");
-      printf("Books Status: 6 Copies left");
+      printf("Books Status: 6 Copies left\n");
       break;
 
        case 789:
       printf("Book Name: Introduction to C++\n");
-      printf("Books Status: 14 Copies left");
+      printf("Books Status: 14 Copies left\n");
       break;
 
        case 759:
       printf("Book Name: The art of Electronics\n");
-      printf("Books Status: 9 Copies left");
+      printf("Books Status: 9 Copies left\n");
       break;
 
        case 157:
       printf("Book Name: Fundamentals of digital circuits\n");
-      printf("Books Status: 21 Copies left");
+      printf("Books Status: 21 Copies left\n\n");
       break;
 
        case 359:
       printf("Book Name: Introduction to Autocad\n");
-      printf("Books Status: 32 Copies left");
+      printf("Books Status: 32 Copies left\n");
       break;
 
        case 153:
       printf("Book Name: Fundamentals of Thermodynamics\n");
-      printf("Books Status: 23 Copies left");
+      printf("Books Status: 23 Copies left\n");
       break;
 
        case 104:
       printf("Book Name: Mechanical Engineering : Conventional and objective type\n");
-      printf("Books Status: 19 Copies left");
+      printf("Books Status: 19 Copies left\n");
       break;
 
 
     default:
       break;
     }
-  }
-
+  } else if(a1 = 4)
+   break;
 
   }
 
