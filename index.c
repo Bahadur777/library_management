@@ -7,7 +7,7 @@ int main()
   while(backToHome = 4){
 
 
-  printf("WElCOME TO Library \n");
+  printf("\n WElCOME TO Library \n");
   printf("-----------------------------\n");
   printf("1. Add books \n");
   printf("2. Display book Information \n");
@@ -137,7 +137,9 @@ int main()
         printf("Prices : ");
         scanf("%d", &pagesC);
       }
+
     }
+
     else if (a2 == 2)
     {
       printf("You have chosen the Electronics category \n\n");
@@ -253,6 +255,8 @@ int main()
         printf("\n");
       }
     }
+
+
     else if (a2 == 3)
     {
       printf("You have chosen Mechanical category\n\n");
@@ -369,7 +373,7 @@ int main()
     }
   }
   else if(a1 == 2){
-       printf("Our books  \n\n");
+       printf("\n Our books  \n\n");
 
     printf(" Introduction to C (copy: 10)\n");
     printf(" Introduction to Python  (copy: 20)\n");
@@ -384,7 +388,7 @@ int main()
 
   else if (a1 == 3)
   {
-    printf("You can search the book Status:  \n\n");
+    printf("\n You can search the book Status:  \n\n");
 
     printf("Press the code: 123 for Introduction to C \n");
     printf("Press the code: 456 for Introduction to Python \n");
@@ -426,12 +430,12 @@ int main()
 
        case 157:
       printf("Book Name: Fundamentals of digital circuits\n");
-      printf("Books Status: 21 Copies left\n\n");
+      printf("Books Status: 11 Copies left\n\n");
       break;
 
        case 359:
       printf("Book Name: Introduction to Autocad\n");
-      printf("Books Status: 32 Copies left\n");
+      printf("Books Status: 12 Copies left\n");
       break;
 
        case 153:
@@ -448,9 +452,8 @@ int main()
     default: 'a'|| 'z' ;
       break;
     }
-  }else if(a1 = 4)
-   break;
-
   }
-
+  else if(a1 = 4)
+   break;
+  }
 }
