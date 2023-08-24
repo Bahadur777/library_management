@@ -19,7 +19,7 @@ int main()
   printf("\n\n");
   if (a1 == 1)
   {
-    printf("You can add book information \n\n");
+    printf("You can added book information \n\n");
     printf("chose the category :  \n\n");
 
     printf("1. computer \n");
@@ -31,7 +31,7 @@ int main()
     printf("\n\n");
     if (a2 == 1)
     {
-      printf("You have Choose Computer category \n\n");
+      printf("You have selected the Computer category \n\n");
 
       printf("1. Introduction to C \n");
       printf("2. Introduction to Python \n");
@@ -43,7 +43,7 @@ int main()
       printf("\n\n");
       if (a3 == 1)
       {
-        printf("You have choose Introduction to C book. \n");
+        printf("You have selected Introduction to C book. \n");
         char student_name[100];
         int student_id;
         char bookNames[100];
@@ -140,7 +140,7 @@ int main()
     }
     else if (a2 == 2)
     {
-      printf("You have choosed Electronics category \n\n");
+      printf("You have chosen the Electronics category \n\n");
       printf("1. Practical Electronics for Inventors \n");
       printf("2. The art of Electronics \n");
       printf("3. Fundamentals of digital circuits");
@@ -152,7 +152,7 @@ int main()
 
       if (a4 == 1)
       {
-        printf("You have choosed  Practical Electronics for Inventors \n ");
+        printf("You have chosen  Practical Electronics for Inventors \n ");
         char student_name[100];
         int student_id;
         char book_namedD[100];
@@ -186,7 +186,7 @@ int main()
       }
       else if (a4 == 2)
       {
-        printf("You have choosed The art of Electronics \n");
+        printf("You have chosen The art of Electronics \n");
         char student_name[100];
         int student_id;
         char bookName_E[100];
@@ -220,7 +220,7 @@ int main()
       }
       else if (a4 == 3)
       {
-        printf("Your choosed Fundamentals of digital circuits");
+        printf("Your chosen Fundamentals of digital circuits");
         char student_name[100];
         int student_id;
 
@@ -255,7 +255,7 @@ int main()
     }
     else if (a2 == 3)
     {
-      printf("You have choosed Mechanical category\n\n");
+      printf("You have chosen Mechanical category\n\n");
       printf("1. Introduction to Autocad \n");
       printf("2. Fundamentals of Thermodynamics\n");
       printf("3. Mechanical Engineering : Conventional and objective type \n\n");
@@ -266,7 +266,7 @@ int main()
       printf("\n");
       if (a5 == 1)
       {
-        printf("You have choosed Introduction to Autocad\n");
+        printf("You have chosen Introduction to Autocad\n");
         char student_name[100];
         int student_id;
         char books_name[210];
@@ -300,7 +300,7 @@ int main()
       }
       else if (a5 == 2)
       {
-        printf("You have choosed Fundamentals of Thermodynamics\n");
+        printf("You have chosen Fundamentals of Thermodynamics\n");
         char student_name[100];
         int student_id;
         char books_nameE[50];
@@ -334,7 +334,7 @@ int main()
       }
       else if (a5 == 3)
       {
-        printf("You have choosed Mechanical Engineering : Conventional and objective type \n\n\n");
+        printf("You have chosen Mechanical Engineering : Conventional and objective type \n\n\n");
         char student_name[100];
         int student_id;
         char books_nameF[50];
@@ -445,10 +445,10 @@ int main()
       break;
 
 
-    default:
+    default: 'a'|| 'z' ;
       break;
     }
-  } else if(a1 = 4)
+  }else if(a1 = 4)
    break;
 
   }
