@@ -386,7 +386,7 @@ int main()
     printf(" Mechanical Engineering : Conventional and objective type (copy: 20) \n");
   }
 
-  else if (a1 == 3)
+else if (a1 == 3)
   {
     printf("\n You can search the book Status:  \n\n");
 
@@ -447,11 +447,10 @@ int main()
       printf("Book Name: Mechanical Engineering : Conventional and objective type\n");
       printf("Books Status: 19 Copies left\n");
       break;
-
-
-    default: 'a'|| 'z' ;
-      break;
+    default:
+     printf("Error! Code doesn't match any book \n\n");
     }
+
   }
   else if(a1 = 4)
    break;
