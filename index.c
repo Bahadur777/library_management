@@ -13,11 +13,11 @@ int main()
   printf("2. Display book Information \n");
   printf("3. Search Books(Book Status) \n");
   printf("4. Exit \n\n");
-  int a1;
+  int options;
   printf("Enter : ");
-  scanf("%d", &a1);
+  scanf("%d", &options);
   printf("\n\n");
-  if (a1 == 1)
+  if (options == 1)
   {
     printf("You can added book information \n\n");
     printf("chose the category :  \n\n");
@@ -25,11 +25,11 @@ int main()
     printf("1. computer \n");
     printf("2. Electronics\n");
     printf("3. Mechanical \n\n");
-    int a2;
+    int category;
     printf("Choose the category: ");
-    scanf("%d", &a2);
+    scanf("%d", &category);
     printf("\n\n");
-    if (a2 == 1)
+    if (category == 1)
     {
       printf("You have selected the Computer category \n\n");
 
@@ -37,11 +37,11 @@ int main()
       printf("2. Introduction to Python \n");
       printf("3. Introduction to C++ \n");
 
-      int a3;
+      int choose_book;
       printf("Choose a book: ");
-      scanf("%d", &a3);
+      scanf("%d", &choose_book);
       printf("\n\n");
-      if (a3 == 1)
+      if (choose_book == 1)
       {
         printf("You have selected Introduction to C book. \n");
         char student_name[100];
@@ -71,7 +71,7 @@ int main()
         printf("Price : ");
         scanf("%d", &prices);
       }
-      else if (a3 == 2)
+      else if (choose_book == 2)
       {
         printf("You have choose Introduction to Python book. \n");
         char student_name[100];
@@ -104,7 +104,7 @@ int main()
         printf("Prices: ");
         scanf("%d", &pricesB);
       }
-      else if (a3 == 3)
+      else if (choose_book == 3)
       {
         printf("You have choose Introduction to C++ book. \n");
         char student_name[100];
@@ -140,19 +140,19 @@ int main()
 
     }
 
-    else if (a2 == 2)
+    else if (category == 2)
     {
       printf("You have chosen the Electronics category \n\n");
       printf("1. Practical Electronics for Inventors \n");
       printf("2. The art of Electronics \n");
       printf("3. Fundamentals of digital circuits");
 
-      int a4;
-      printf("chose a book : ");
-      scanf("%d", &a4);
+      int choose_book_2;
+      printf("choose a book : ");
+      scanf("%d", &choose_book_2);
       printf("\n");
 
-      if (a4 == 1)
+      if (choose_book_2 == 1)
       {
         printf("You have chosen  Practical Electronics for Inventors \n ");
         char student_name[100];
@@ -186,7 +186,7 @@ int main()
         scanf("%d", &pricesD);
         printf("\n");
       }
-      else if (a4 == 2)
+      else if (choose_book_2 == 2)
       {
         printf("You have chosen The art of Electronics \n");
         char student_name[100];
@@ -220,7 +220,7 @@ int main()
         scanf("%d", &price_E);
         printf("\n");
       }
-      else if (a4 == 3)
+      else if (choose_book_2 == 3)
       {
         printf("Your chosen Fundamentals of digital circuits");
         char student_name[100];
@@ -257,18 +257,18 @@ int main()
     }
 
 
-    else if (a2 == 3)
+    else if (category == 3)
     {
       printf("You have chosen Mechanical category\n\n");
       printf("1. Introduction to Autocad \n");
       printf("2. Fundamentals of Thermodynamics\n");
       printf("3. Mechanical Engineering : Conventional and objective type \n\n");
 
-      int a5;
+      int choose_book_3;
       printf("Choose a book: ");
-      scanf("%d,", &a5);
+      scanf("%d,", &choose_book_3);
       printf("\n");
-      if (a5 == 1)
+      if (choose_book_3 == 1)
       {
         printf("You have chosen Introduction to Autocad\n");
         char student_name[100];
@@ -302,7 +302,7 @@ int main()
         scanf("%d", &price);
         printf("\n");
       }
-      else if (a5 == 2)
+      else if (choose_book_3 == 2)
       {
         printf("You have chosen Fundamentals of Thermodynamics\n");
         char student_name[100];
@@ -336,7 +336,7 @@ int main()
         scanf("%d", &priceE);
         printf("\n");
       }
-      else if (a5 == 3)
+      else if (choose_book_3 == 3)
       {
         printf("You have chosen Mechanical Engineering : Conventional and objective type \n\n\n");
         char student_name[100];
@@ -372,7 +372,7 @@ int main()
       }
     }
   }
-  else if(a1 == 2){
+  else if(options == 2){
        printf("\n Our books  \n\n");
 
     printf(" Introduction to C (copy: 10)\n");
@@ -386,7 +386,7 @@ int main()
     printf(" Mechanical Engineering : Conventional and objective type (copy: 20) \n");
   }
 
-else if (a1 == 3)
+else if (options == 3)
   {
     printf("\n You can search the book Status:  \n\n");
 
@@ -400,13 +400,13 @@ else if (a1 == 3)
     printf("Press the code: 153 for  Fundamentals of Thermodynamics\n");
     printf("Press the code: 104 for Mechanical Engineering : Conventional and objective type \n");
 
-    int a6;
+    int search;
     printf("Enter the book code to search (Use The Code) : ");
-    scanf("%d", &a6);
+    scanf("%d", &search);
 
     printf("\n\n");
 
-    switch (a6)
+    switch (search)
     {
     case 123:
       printf("Book Name: Introduction to C\n");
@@ -452,7 +452,7 @@ else if (a1 == 3)
     }
 
   }
-  else if(a1 = 4)
+  else if(options = 4)
    break;
   }
 }
